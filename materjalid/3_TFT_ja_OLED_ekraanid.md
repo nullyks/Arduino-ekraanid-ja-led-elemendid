@@ -6,7 +6,7 @@ Kui OLED-ekraan kasutab I2C-protokolli, mis on aeglasem, kuid võimaldab ühe li
 
 ## 2.8 tolline (240x320 pikslit) puutetundlik TFT ekraan
 
-Suurema eraldusvõime ja mitmevärvilise kuvaga ekraan, mis toetab puutejuhtimist, võimaldades kasutajatel ekraaniga otse suhelda. See ekraan kasutab SPI (Serial Peripheral Interface) protokolli, mis võimaldab kiiret andmeedastust Arduino ja ekraani vahel. Lisaks puutetundlikkusele toetab see ekraan ka SD-kaardi lugemist, mis teeb võimalikuks piltide ja muude andmete salvestamise. Selle ekraani kasutamiseks on vajalik paigaldada tootjapoolsed teegid. Arvestada tuleb, et ekraanimoodul kasutab ära suure osa Arduino UNO viikudest.
+Suurema eraldusvõime ja mitmevärvilise kuvaga ekraan, mis toetab puutejuhtimist, võimaldades kasutajatel ekraaniga otse suhelda. See ekraan kasutab SPI *(ingl Serial Peripheral Interface)* protokolli, mis võimaldab kiiret andmeedastust Arduino ja ekraani vahel. Lisaks puutetundlikkusele toetab see ekraan ka SD-kaardi lugemist, mis teeb võimalikuks piltide ja muude andmete salvestamise. Selle ekraani kasutamiseks on vajalik paigaldada tootjapoolsed teegid. Arvestada tuleb, et ekraanimoodul kasutab ära suure osa Arduino UNO viikudest.
 
 Kõik selles ekraani kohta toodud materjalid pärinevad Elegoo 2.8 TFT Touch Screen [kasutaja käsiraamatust](https://download.elegoo.com/03%20Other%20Kits/07%202.8-inch%20Screen/Elegoo%202.8%20Inch%20Touch%20Screen%20User%20Manual%20V1.00.2021.11.19.zip)
 
