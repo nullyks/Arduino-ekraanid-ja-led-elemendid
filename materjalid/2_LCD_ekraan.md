@@ -89,6 +89,8 @@ void loop() {
 }
 ~~~
 
+[Interaktiivne simulatsioon](https://www.tinkercad.com/things/5mNyBSpkmbl-lcd-i2c?sharecode=dqEQ3V8nEhG2lbm6JkI8a-kXcxAIlsPoJfBNv0WSC-w)
+
 ## Lisamaterjal:
 * [Paralleelühendusega LCD täpsemad näited](https://docs.arduino.cc/learn/electronics/lcd-displays/)
 * [I2C ühendusega LCD täpsemad näited](https://arduinogetstarted.com/tutorials/arduino-lcd-i2c)
