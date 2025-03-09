@@ -1,5 +1,7 @@
 # Õppematerjali osad
 
-* [1 osa](materjalid/1_osa.md)
-* [2 osa](materjalid/2_osa.md)
-* [3 osa](materjalid/3_osa.md)
+* [Segmentidega LED ekraan](1_segmentidega_LED_ekraan.md)
+* [LCD ekraan](2_LCD_ekraan.md)
+* [TFT ja OLED ekraanid](3_TFT_ja_OLED_ekraanid.md)
+* [RGB LED moodulid](4_RGB_LED_moodul.md)
+* [Iseseisvad ülesanded](5_iseseisvad_ülesanded.md)
