@@ -8,7 +8,7 @@ NeoPixel LED-id on Adafruit’i välja töötatud programmeeritavad RGB LED-id, 
 
 NeoPixel LED-id on väga hästi ühilduvad Arduino arendusplaatidega, kuna nende juhtimine toimub digitaalse signaaliga, mida Arduino suudab hõlpsasti genereerida. NeoPixeleid juhitakse spetsiaalse ajastusega, mistõttu on soovitatav kasutada Adafruit NeoPixel teeki, mis lihtsustab LED-de haldamist. Teek võimaldab hõlpsasti määrata LED-de värve, mustreid ja efekte.
 
-Moodulite toitepinge on tavaliselt 5V, kuid mõned mudelid töötavad ka 3,3V peal. Kuna iga LED tarbib teatud hulga voolu, tuleks suuremate NeoPixel ribade või paneelide puhul arvestada piisava toiteallikaga. Samuti on oluline kasutada signaaliliini jaoks takistit (tavaliselt 300–500 $\Omega$), et vähendada häireid ning lisada kondensaator (umbes 1000 µF) voolu kõikumiste tasandamiseks.
+Moodulite toitepinge on tavaliselt 5V, kuid mõned mudelid töötavad ka 3,3V peal. Kuna iga LED tarbib teatud hulga voolu, tuleks suuremate NeoPixel ribade või paneelide puhul arvestada piisava toiteallikaga. Lisatoite kasutamisest [räägime mootorite õppematerjali juures](https://github.com/nullyks/Arduino-mootorid-ja-toide). Samuti on oluline kasutada signaaliliini jaoks ][takistit](https://github.com/nullyks/Arduino-baaselemendid/blob/main/materjalid/1_takistid.md) (tavaliselt 300–500 $\Omega$), et vähendada häireid ning lisada [kondensaator](https://github.com/nullyks/Arduino-baaselemendid/blob/main/materjalid/4_kondensaatorid.md) (umbes 1000 µF) voolu kõikumiste tasandamiseks.
 
 ## Ühe NeoPixel LED-i juhtimise näide
 NeoPixlite juhtimiseks kasutame Adafruit NeoPixel teeki.

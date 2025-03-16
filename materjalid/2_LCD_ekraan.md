@@ -1,6 +1,6 @@
 # LCD ekraan
 
- 16x2 märgiga LCD-ekraanid *(ingl 16x2 LCD Display Module)* võimaldavad kuvada teksti või lihtsaid sümboleid, mis teeb neist hea valiku väikesemahuliste andmete, teavituste ja menüüde esitamiseks. Kõige sagedamini kasutatakse Hitachi HD44780 kontrolleriga ekraane, mis suhtlevad Arduinoga kas paralleelühenduse või I2C liidese kaudu.
+ 16x2 märgiga LCD-ekraanid *(ingl 16x2 LCD Display Module)* võimaldavad kuvada teksti või lihtsaid sümboleid, mis teeb neist hea valiku väikesemahuliste andmete (näiteks [andurite](https://github.com/nullyks/Arduino-erinevad-andurid) näitude), teavituste ja menüüde esitamiseks. Kõige sagedamini kasutatakse Hitachi HD44780 kontrolleriga ekraane, mis suhtlevad Arduinoga kas paralleelühenduse või I2C liidese kaudu.
 
  LCD-ekraani ühendamiseks Arduinoga on kaks peamist meetodit: otsene paralleelühendus (kasutades vähemalt 6 digitaalset viiku) või I2C mooduli abil, mis vähendab vajalike juhtmete arvu. I2C adapter kasutab kahte kanalt – SDA (andmed) ja SCL (takt), mis lihtsustab ühendamist ja vabastab Arduino digitaalsed viigud muude komponentide jaoks.
 
