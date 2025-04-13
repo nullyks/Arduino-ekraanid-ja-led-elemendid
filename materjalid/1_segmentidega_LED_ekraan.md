@@ -18,6 +18,7 @@ Joonisel on näha kuidas ühendada ühise katoodiga seitsmesegmentdiline LED ele
 
 Kood loendab numbreid 1-5:
 ~~~cpp
+//defineerime segmentide juhtviigud
 #define a 2
 #define b 3
 #define c 4
@@ -41,7 +42,7 @@ void setup()
 
 void loop()
 {
-  //1
+  //moodustame arvu 1
   digitalWrite(a, HIGH);
   digitalWrite(b, LOW);
   digitalWrite(c, LOW);
@@ -51,7 +52,7 @@ void loop()
   digitalWrite(g, HIGH);
   digitalWrite(h, LOW);
   delay(1000);
-   //2
+   // moodustame arvu 2
   digitalWrite(a, HIGH);
   digitalWrite(b, HIGH);
   digitalWrite(c, LOW);
@@ -61,7 +62,7 @@ void loop()
   digitalWrite(g, LOW);
   digitalWrite(h, LOW);
   delay(1000);
-   //3
+   // moodustame arvu 3
   digitalWrite(a, HIGH);
   digitalWrite(b, HIGH);
   digitalWrite(c, LOW);
@@ -71,7 +72,7 @@ void loop()
   digitalWrite(g, HIGH);
   digitalWrite(h, LOW);
   delay(1000);
-   //4
+   // moodustame arvu 4
   digitalWrite(a, HIGH);
   digitalWrite(b, LOW);
   digitalWrite(c, HIGH);
@@ -81,7 +82,7 @@ void loop()
   digitalWrite(g, HIGH);
   digitalWrite(h, LOW);
   delay(1000);
-   //5
+   //moodustame arvu 5
   digitalWrite(a, LOW);
   digitalWrite(b, HIGH);
   digitalWrite(c, HIGH);
@@ -111,12 +112,12 @@ Seda moodulit kontrollib [HT16K33 driver](https://cdn-shop.adafruit.com/datashee
 ![alt text](meedia/7_segment_4_kohta.png)
 
 ~~~cpp
-#include <Adafruit_LEDBackpack.h>
-Adafruit_7segment display=Adafruit_7segment();
+#include <Adafruit_LEDBackpack.h> //võtame kasutusele sobiva teegi
+Adafruit_7segment display=Adafruit_7segment(); //defineerime objekti, mis tähistab ekraani
 
 void setup()
 {
-  display.begin(0x70);
+  display.begin(0x70); //tekitame ekraaniga ühenduse kasutades selle aadressi
 }
 
 void loop()

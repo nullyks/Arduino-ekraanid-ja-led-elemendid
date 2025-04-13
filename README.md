@@ -1,6 +1,9 @@
 # Erinevate ekraanide ja LED moodulite liidestamine Arduino UNO-ga
 See õppematerjal selgitab segmentidega LED mooduli, RGB LED mooduli, LCD, TFT ja OLED ekraanide kasutamist koos Arduino UNO-ga. 
 
+## Õpieesmärgid
+Selle õppematerjali läbimisel saad teada, kuias kasutada erinevaid ekraanitüüpe, et näidata oma seadme kasutajale olulisi andmeid. Lisaks õpid kasutama programmeeritavaid RGB mooduleid, mis võimaldavad luua keerukamaid valguslahendusi.
+
 ## Õpiväljundid
 Materjali edukalt läbinud õppija:
 * nimetab ja kirjeldab erinevaid ekraane ja LED mooduleid, mida saab liidestada arendusplaatidega; 
